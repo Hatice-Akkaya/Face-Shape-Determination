@@ -25,10 +25,15 @@ Model, **MobileNetV2** mimarisi kullanılarak transfer learning yöntemiyle eği
 ---
 ## Dosyalar
 [requirements.txt](https://github.com/user-attachments/files/24301168/requirements.txt)
+
 [simple_camera_test.py](https://github.com/user-attachments/files/24301169/simple_camera_test.py)
+
 [main.py](https://github.com/user-attachments/files/24301172/main.py)
+
 [face.ipynb](https://github.com/user-attachments/files/24301173/face.ipynb)
+
 [test_on_examples.py](https://github.com/user-attachments/files/24301174/test_on_examples.py)
+
 [train_improved.py](https://github.com/user-attachments/files/24301186/train_improved.py)
 
 ## 📂 Klasör Yapısı
