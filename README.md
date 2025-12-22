@@ -1,4 +1,4 @@
-# 📸 Face Shape Classification with MobileNetV2
+# 📸  Yüz Şekli Analizi MobileNetV2 Modeli ile
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
@@ -12,6 +12,7 @@ Model, **MobileNetV2** mimarisi kullanılarak transfer learning yöntemiyle eği
 
 ---
 
+
 ## 🚀 Özellikler
 * **Otomatik Yüz Tespiti:** OpenCV kullanarak görüntüdeki yüzü bulur ve kırpar.
 * **Derin Öğrenme Modeli:** MobileNetV2 tabanlı güçlü bir sınıflandırma altyapısı.
@@ -22,6 +23,13 @@ Model, **MobileNetV2** mimarisi kullanılarak transfer learning yöntemiyle eği
 * **Görselleştirme:** Tahmin edilen sınıfı ve eminlik (confidence) oranını görsel üzerinde gösterir.
 
 ---
+## Dosyalar
+[requirements.txt](https://github.com/user-attachments/files/24301168/requirements.txt)
+[simple_camera_test.py](https://github.com/user-attachments/files/24301169/simple_camera_test.py)
+[main.py](https://github.com/user-attachments/files/24301172/main.py)
+[face.ipynb](https://github.com/user-attachments/files/24301173/face.ipynb)
+[test_on_examples.py](https://github.com/user-attachments/files/24301174/test_on_examples.py)
+[train_improved.py](https://github.com/user-attachments/files/24301186/train_improved.py)
 
 ## 📂 Klasör Yapısı
 
@@ -40,7 +48,7 @@ faceshape_proje/
 ├── test_on_examples.py      # 🖼️ Dosya üzerinden test kodu
 ├── train_improved.py        # 🏋️‍♂️ Model eğitim kodu
 └── yuz_sekli_mobilenet.h5   # Yedek model dosyası
-
+---
 🧠 Teknik Detaylar
 Ön İşleme (Preprocessing)
 Yüzler OpenCV Haar Cascades veya DNN modülleri ile tespit edilir.
