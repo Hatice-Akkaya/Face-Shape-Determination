@@ -49,6 +49,10 @@ faceshape_proje/
 ├── train_improved.py        # 🏋️‍♂️ Model eğitim kodu
 └── yuz_sekli_mobilenet.h5   # Yedek model dosyası
 ---
+
+
+
+
 🧠 Teknik Detaylar
 Ön İşleme (Preprocessing)
 Yüzler OpenCV Haar Cascades veya DNN modülleri ile tespit edilir.
@@ -57,20 +61,33 @@ Tespit edilen yüzler kare şeklinde kırpılır ve 160x160 boyutuna getirilir.
 
 preprocess_input fonksiyonu ile MobileNetV2 formatına normalize edilir.
 
+
+---
+
+
+
 Model Mimarisi
 Base Model: MobileNetV2 (ImageNet ağırlıkları ile, son katman hariç).
 
 Custom Layers: GlobalAveragePooling2D -> Dense (Softmax).
 
+
+
 Eğitim: Class weights kullanılarak dengesiz veri seti yönetimi ve Data Augmentation (veri artırma) teknikleri uygulanmıştır.
+
+
 
 📝 Notlar
 Modelin en iyi performansı için yüzün net olduğu ve iyi ışık alan fotoğraflar tercih edilmelidir.
 
 en_iyi_yuz_modeli.h5 dosyası proje dizininde bulunmalıdır.
 
+
+
 ⚖️ Lisans
 Bu proje eğitim ve araştırma amaçlı geliştirilmiştir.
+
+
 
 📞 İletişim
 Sorularınız veya önerileriniz için GitHub üzerinden iletişime geçebilirsiniz.
